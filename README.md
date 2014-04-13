@@ -30,7 +30,7 @@ and back.
 
 ## Why?
 
-Passing PKI artifacts around as command line arguments, environment variables, etc. is a pain because of all the spaces and newlines. However, OpenSSL can be picky about formatting.
+Passing PKI artifacts around as command line arguments, environment variables, etc. is a pain because of all the spaces and newlines. However, you can't just pass use plain base64 strings because OpenSSL can be picky about formatting.
 
 ## Usage
 
